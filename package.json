@@ -29,8 +29,8 @@
     "core-js": "^2.4.1",
     "express": "^4.15.5",
     "http-status": "^1.0.1",
-    "mongodb": "^2.2.31",
-    "mongoose": "^4.11.13",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.10",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
