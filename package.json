@@ -10,7 +10,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "preinstall": "npm install -g @angular/cli",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --prod",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -32,7 +34,8 @@
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.13",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular/language-service": "^4.2.4",
@@ -52,5 +55,6 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
-  }
+  },
+  "snyk": true
 }
