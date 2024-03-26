@@ -27,7 +27,7 @@
     "@angular/router": "^4.2.4",
     "body-parser": "^1.18.2",
     "core-js": "^2.4.1",
-    "express": "^4.15.5",
+    "express": "^4.19.2",
     "http-status": "^1.0.1",
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.13",
